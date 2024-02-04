@@ -237,7 +237,7 @@ footer a:hover {color: purple;}
 button {
 	font-family: chakraPetch;
 	font-size: 1em;
-	padding: 0px;
+	padding: 8px;
 	width: 100%;
 	border-radius: 8px;
 	transition: var(--transBackColor), var(--transColor);
