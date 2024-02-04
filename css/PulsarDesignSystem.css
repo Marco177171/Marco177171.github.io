@@ -348,6 +348,8 @@ ul {
 .card {
 	width: 100%;
 	background-color: var(--g4);
+	padding: 8px;
+	border-radius: 16px;
 	transition: var(--transBackColor), var(--transColor);
 }
 
