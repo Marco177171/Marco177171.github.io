@@ -222,6 +222,7 @@ footer {
 	margin-top: 32px;
 	width: 100%;
 	background: var(--ice);
+	border-radius: 8px;
 }
 
 footer a {color: white;}
