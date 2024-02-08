@@ -402,10 +402,10 @@ ul {
 .picSmall {height: 160px;}
 
 .centralLarge, .centralMedium {
-	position: relative;
-	/* top: 50%;
+	position: absolute;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); */
+	transform: translate(-50%, -50%);
 	margin: auto;
 	text-align: center;
 	place-items: center;
