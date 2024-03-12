@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6, a {
 	margin: 8px;
 	font-weight:normal;
 	line-height: 150%;
+	color: var(--g10);
 }
 
 p, span {
@@ -348,14 +349,14 @@ ul {
 
 .card {
 	width: 100%;
-	background-color: var(--g4);
+	background-color: var(--g3);
 	padding: 8px;
 	border-radius: 16px;
 	transition: var(--transBackColor), var(--transColor);
 }
 
 .card:hover {
-	background-color: var(--g7);
+	background-color: var(--g4);
 }
 
 .row {
