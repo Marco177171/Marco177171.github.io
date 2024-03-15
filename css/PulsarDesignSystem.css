@@ -162,9 +162,9 @@ header {
 	left: 0px;
 	right: 0px;
 	background: var(--lime);
-	color: var(black);
 	padding-left: 8px;
 	padding-right: 8px;
+	h6 {color: var(--g1)}
 }
 
 nav {
@@ -349,14 +349,14 @@ ul {
 
 .card {
 	width: 100%;
-	background-color: var(--g3);
+	background-color: var(--g5);
 	padding: 8px;
 	border-radius: 16px;
 	transition: var(--transBackColor), var(--transColor);
 }
 
 .card:hover {
-	background-color: var(--g4);
+	background-color: var(--g6);
 }
 
 .row {
