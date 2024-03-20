@@ -164,7 +164,8 @@ header {
 	background: var(--lime);
 	padding-left: 8px;
 	padding-right: 8px;
-	h6 {color: var(--g1)}
+	display: flex;
+	h6 {color: var(--g2);}
 }
 
 nav {
@@ -201,6 +202,28 @@ main {
 	color: var(--g10);
 	display: inline;
 	overflow-y: auto;
+}
+
+@keyframes slide_animation {
+	0% {transform: translate3d(0, 0, 0);}
+	100% {transform: translate3d(-600px, 0, 0);}
+}
+
+.sideBarBottom {
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	white-space: nowrap;
+	text-align: center;
+	h6, p {
+		width: 200px;
+		float: center;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 8px;
+		padding-right: 8px;
+		animation: slide_animation 8s linear infinite;
+	}
 }
 
 .explorer {
