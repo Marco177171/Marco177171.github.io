@@ -206,7 +206,8 @@ main {
 
 .sideBarBottom {
 	position: absolute;
-	margin: 0px;
+	left: 0px;
+	right: 0px;
 	bottom: 0px;
 }
 
@@ -219,10 +220,10 @@ main {
 	display: flex;
 	width: 1200px;
 	justify-content: space-around;
+	background-color: var(--g5);
 	animation: slide_animation 10s linear infinite;
 	* {
 		color: var(--neongreen);
-		margin: 0px;
 	}
 }
 
