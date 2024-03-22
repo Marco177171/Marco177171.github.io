@@ -204,25 +204,25 @@ main {
 	overflow-y: auto;
 }
 
-@keyframes slide_animation {
-	0% {transform: translate3d(0, 0, 0);}
-	100% {transform: translate3d(-600px, 0, 0);}
-}
-
 .sideBarBottom {
 	position: absolute;
+	margin: 0px;
 	bottom: 0px;
+}
+
+@keyframes slide_animation {
+	0% {transform: translate3d(0, 0, 0);}
+	100% {transform: translate3d(-50%, 0, 0);}
+}
+
+.slideBanner {
 	display: flex;
-	white-space: nowrap;
-	text-align: center;
-	h6, p {
-		width: 200px;
-		float: center;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding-left: 8px;
-		padding-right: 8px;
-		animation: slide_animation 8s linear infinite;
+	width: 1200px;
+	justify-content: space-around;
+	animation: slide_animation 10s linear infinite;
+	* {
+		color: var(--neongreen);
+		margin: 0px;
 	}
 }
 
