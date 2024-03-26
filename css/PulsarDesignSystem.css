@@ -422,9 +422,9 @@ ul {
 	border-radius: 8px;
 }
 
-.picLarge {height: 320px;}
-.picMedium {height: 256px;}
-.picSmall {height: 160px;}
+.picLarge {aspect-ratio: 1/1;}
+.picMedium {aspect-ratio: 4/3;}
+.picSmall {aspect-ratio: 16/9;}
 
 .centralLarge, .centralMedium {
 	position: absolute;

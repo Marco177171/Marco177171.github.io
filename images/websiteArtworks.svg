@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.23570062"
-     inkscape:cx="20835.753"
-     inkscape:cy="506.99908"
+     inkscape:zoom="0.060622047"
+     inkscape:cx="27795.168"
+     inkscape:cy="4272.373"
      inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -173,9 +173,81 @@
        id="page14"
        margin="0"
        bleed="0" />
+    <inkscape:page
+       x="22919.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page16"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="24839.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page17"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="26759.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page18"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="28679.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page19"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="30599.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page20"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="32519.104"
+       y="4046.6531"
+       width="1920"
+       height="1080"
+       id="page158"
+       margin="0"
+       bleed="0" />
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient144"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#4c51f5;stop-opacity:1;"
+         offset="0"
+         id="stop139" />
+      <stop
+         style="stop-color:#fc8168;stop-opacity:1;"
+         offset="0.27821982"
+         id="stop140" />
+      <stop
+         style="stop-color:#e757f5;stop-opacity:0.5;"
+         offset="0.55515128"
+         id="stop141" />
+      <stop
+         style="stop-color:#f5db71;stop-opacity:0.25;"
+         offset="0.78682595"
+         id="stop142" />
+      <stop
+         style="stop-color:#40f5af;stop-opacity:0.13849546;"
+         offset="1"
+         id="stop143" />
+    </linearGradient>
     <linearGradient
        id="linearGradient167"
        inkscape:collect="always">
@@ -6861,16 +6933,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient81"
-       id="linearGradient34"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(1028.378,1030.4005)"
-       x1="5078.0215"
-       y1="901.18311"
-       x2="6006.5874"
-       y2="901.18311" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient81"
        id="linearGradient36"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(1028.378,1030.4005)"
@@ -7067,6 +7129,508 @@
        y1="-204.93423"
        x2="6444.4185"
        y2="-204.93423" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient144"
+       id="linearGradient11-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.04687499,0,0,1.7777778,3242.3205,-32033.155)"
+       x1="22919.104"
+       y1="4586.6533"
+       x2="24839.104"
+       y2="4586.6533" />
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter196"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur176" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur177" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend177" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer177">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR177" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG177" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB177" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence195" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix195" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix195" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite195" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite196" />
+    </filter>
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter198"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur196" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur197" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend197" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer197">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR197" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG197" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB197" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence197" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix197" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix197" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite197" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite198" />
+    </filter>
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter242"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur198" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur199" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend200" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer200">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR200" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG200" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB200" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence201" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix201" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix240" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite241" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite242" />
+    </filter>
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter244"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur242" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur243" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend243" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer243">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR243" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG243" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB243" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence243" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix243" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix243" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite243" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite244" />
+    </filter>
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter246"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur244" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur245" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend245" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer245">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR245" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG245" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB245" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence245" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix245" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix245" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite245" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite246" />
+    </filter>
+    <filter
+       inkscape:label="Cross Noise Poster"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Overlay with a small scale screen like noise"
+       inkscape:menu="Image Paint and Draw"
+       id="filter248"
+       x="-0.1583949"
+       y="-0.281591"
+       width="1.3167898"
+       height="1.563182">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="125.71592"
+         result="result3"
+         id="feGaussianBlur246" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1"
+         id="feGaussianBlur247" />
+      <feBlend
+         mode="darken"
+         in2="result3"
+         id="feBlend247" />
+      <feComponentTransfer
+         result="result1"
+         id="feComponentTransfer247">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncR247" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncG247" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0.2 0.4 0.6 0.8 1 1"
+           id="feFuncB247" />
+      </feComponentTransfer>
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="7"
+         type="fractalNoise"
+         id="feTurbulence247" />
+      <feConvolveMatrix
+         result="result5"
+         order="3 3"
+         kernelMatrix="-2 0 -2 0 -10 0 -2 0 -2 "
+         id="feConvolveMatrix247" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix247" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result1"
+         in2="result4"
+         id="feComposite247" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite248" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient273"
+       x1="23277.506"
+       y1="4586.6533"
+       x2="24480.701"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(273.11106,26.18988)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient274"
+       x1="25352.49"
+       y1="4586.6533"
+       x2="26245.717"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(229.17182,29.509747)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient275"
+       x1="27346.838"
+       y1="4586.6533"
+       x2="28091.367"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(188.79926,29.509747)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient276"
+       x1="28921.025"
+       y1="4586.6533"
+       x2="30357.182"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(359.57167,-37.333298)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient277"
+       x1="30807.105"
+       y1="4586.6533"
+       x2="32311.1"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(382.93125,29.509747)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81"
+       id="linearGradient278"
+       x1="32938.52"
+       y1="4586.6533"
+       x2="34019.688"
+       y2="4586.6533"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(277.22395,-37.333298)" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -8430,14 +8994,6 @@
        y="1885.8817"
        transform="matrix(1,0,0,0.33112848,14781,-566.2633)" />
     <rect
-       style="fill:url(#linearGradient34);fill-opacity:1;stroke-width:18.8976;stroke-linejoin:round;paint-order:markers fill stroke;filter:url(#filter511-6-5-51-2-9)"
-       id="rect10-5-15-5-2-9"
-       width="928.56616"
-       height="91.40374"
-       x="6106.3994"
-       y="1885.8817"
-       transform="matrix(1,0,0,0.33112848,17014.999,444.7367)" />
-    <rect
        style="fill:url(#linearGradient36);fill-opacity:1;stroke-width:18.8976;stroke-linejoin:round;paint-order:markers fill stroke;filter:url(#filter511-6-5-6-1-8)"
        id="rect10-5-15-4-9-2"
        width="928.56616"
@@ -8635,5 +9191,133 @@
        inkscape:transform-center-x="3.0796659"
        inkscape:transform-center-y="-20.206277"
        transform="matrix(1.5636705,1.77643,-1.77643,1.5636705,8996.2009,-10384.975)" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21"
+       width="1920"
+       height="1080"
+       x="22919.104"
+       y="4046.6531" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21-4"
+       width="1920"
+       height="1080"
+       x="24839.104"
+       y="4046.6533" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21-6"
+       width="1920"
+       height="1080"
+       x="26759.104"
+       y="4046.6531" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21-2"
+       width="1920"
+       height="1080"
+       x="30599.104"
+       y="4046.6531" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21-2-2"
+       width="1920"
+       height="1080"
+       x="28679.104"
+       y="4046.6531" />
+    <rect
+       style="opacity:0.9;fill:#272727;stroke-width:10;fill-opacity:1"
+       id="rect21-7"
+       width="1920"
+       height="1080"
+       x="32519.104"
+       y="4046.6531" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:118.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient273);fill-opacity:1;stroke-width:10"
+       x="23536.75"
+       y="4553.8232"
+       id="text137"><tspan
+         sodipodi:role="line"
+         id="tspan137"
+         x="23536.75"
+         y="4553.8232"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:118.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient273)">INDUSTRIAL</tspan><tspan
+         sodipodi:role="line"
+         x="23536.75"
+         y="4702.5498"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:118.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient273)"
+         id="tspan138">DESIGN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:106.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient274);fill-opacity:1;stroke-width:10"
+       x="25569.93"
+       y="4557.1431"
+       id="text137-0"><tspan
+         sodipodi:role="line"
+         id="tspan137-4"
+         x="25569.93"
+         y="4557.1431"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient274)">GRAPHIC</tspan><tspan
+         sodipodi:role="line"
+         x="25569.93"
+         y="4690.8301"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient274)"
+         id="tspan138-8">DESIGN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:106.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient278);fill-opacity:1;stroke-width:10"
+       x="33201.875"
+       y="4623.9863"
+       id="text137-2"><tspan
+         sodipodi:role="line"
+         x="33201.875"
+         y="4623.9863"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient278)"
+         id="tspan138-2">RESEARCH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:106.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient277);fill-opacity:1;stroke-width:10"
+       x="31176.17"
+       y="4557.1431"
+       id="text137-06"><tspan
+         sodipodi:role="line"
+         x="31176.17"
+         y="4557.1431"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient277)"
+         id="tspan138-5">BUSINESS</tspan><tspan
+         sodipodi:role="line"
+         x="31176.17"
+         y="4690.8301"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient277)"
+         id="tspan158">DEVELOPMENT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:106.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient276);fill-opacity:1;stroke-width:10"
+       x="29279.531"
+       y="4623.9863"
+       id="text137-06-0"><tspan
+         sodipodi:role="line"
+         x="29279.531"
+         y="4623.9863"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient276)"
+         id="tspan158-1">ADAPTABILITY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:106.667px;font-family:urb;-inkscape-font-specification:'urb Italic';opacity:0.9;fill:url(#linearGradient275);fill-opacity:1;stroke-width:10"
+       x="27530.303"
+       y="4557.1431"
+       id="text137-06-7"><tspan
+         sodipodi:role="line"
+         x="27530.303"
+         y="4557.1431"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient275)"
+         id="tspan158-4">WEB</tspan><tspan
+         sodipodi:role="line"
+         x="27530.303"
+         y="4690.8301"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:106.667px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch Bold';fill:url(#linearGradient275)"
+         id="tspan175">DESIGN</tspan></text>
   </g>
 </svg>
