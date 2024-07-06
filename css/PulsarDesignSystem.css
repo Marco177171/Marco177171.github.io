@@ -221,7 +221,7 @@ main {
 	width: 6000px;
 	justify-content: space-around;
 	background-color: var(--g5);
-	animation: slide_animation 35s linear infinite;
+	animation: slide_animation 60s linear infinite;
 	* {
 		color: var(--neongreen);
 		margin: 0px;
